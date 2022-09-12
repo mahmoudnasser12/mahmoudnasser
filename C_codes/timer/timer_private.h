@@ -1,0 +1,5 @@
+#ifndef TIMER_PRIVATE_H_
+#define TIMER_PRIVATE_H_
+
+#define DIVID_BY_8  2 
+#define TIMER0_PRESCALER_MASK  0b11111000
