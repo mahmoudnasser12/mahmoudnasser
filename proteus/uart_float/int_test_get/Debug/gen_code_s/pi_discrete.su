@@ -1,0 +1,5 @@
+pi_discrete.c:33:8:uMultiWord2Double	48	static
+pi_discrete.c:48:6:uMultiWordMul	72	static
+pi_discrete.c:108:6:pi_discrete_step	56	static
+pi_discrete.c:157:6:pi_discrete_initialize	4	static
+pi_discrete.c:163:6:pi_discrete_terminate	4	static

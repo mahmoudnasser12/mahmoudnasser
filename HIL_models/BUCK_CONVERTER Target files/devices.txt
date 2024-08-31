@@ -1,0 +1,21 @@
+65lx/ol2yK5O2P7Upswm8usOGDvnh4RzN5NtiKx3fY2Oyc5yNMRXdux2h8bZpj59S0VtR9sm3Yx2tC5yMK46tw==
+{
+  "compilation_timestamp": "2024-08-28 17:28:33",
+  "sw_version": "2024.3",
+  "devices": [
+    {
+      "device_type": "HIL402",
+      "hw_id": "",
+      "serial_no": "Virtual device",
+      "license_expiry": "2024-12-31",
+      "maintenance_expiry": null,
+      "access_type": "Full",
+      "paralleling": "Master",
+      "not_supported": null,
+      "toolboxes": []
+    }
+  ]
+}
+-----BEGIN SIGNATURE-----
+Hh1a8dH4lb9XoVuG4dGv7VjdKRmq3AW7Qa5OeCPwfFxJ3lf6gMYEbX4yqHKBZyS7uzv3ASsGOkAtqLJ0o7gzoxGjh8XNRe/stnJ1nIVyD59H1slXCQ2DSctLgZJMse7JJDGkWHMGCv1cOSkyiZ0/uz7W8NmUnqqViFQCFMVd5Pb8GVGUDfAVsZz/tYjfjRgh3wlQIYDMbRUKlqunYseJsNdaXItWDeiYgyzK2DmXh3v7a6Ya/DFm6+AZOvgHvSmKqcm+ypu3z/O+KiyHJqCTAaJqbYn83POSJHfJf1QNuAOY3r4XvMqT1f6BvAmihwcN6A4+qH3/aYizj39n3zz/rg==
+-----END SIGNATURE-----

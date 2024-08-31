@@ -1,0 +1,23 @@
+13:36:21 **** Incremental Build of configuration Debug for project uart_float ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103x6 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "uart_float.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\personal repo\mahmoudnasser\proteus\uart_float\uart_float\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_float.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: uart_float.elf
+ 
+arm-none-eabi-objdump -h -S  uart_float.elf  > "uart_float.list"
+arm-none-eabi-objcopy  -O ihex  uart_float.elf  "uart_float.hex"
+arm-none-eabi-objcopy  -O binary  uart_float.elf  "uart_float.bin"
+arm-none-eabi-size   uart_float.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    484	   1652	  21000	   5208	uart_float.elf
+Finished building: default.size.stdout
+Finished building: uart_float.hex
+Finished building: uart_float.bin
+ 
+ 
+ 
+Finished building: uart_float.list
+ 
+
+13:36:21 Build Finished. 0 errors, 0 warnings. (took 532ms)
+

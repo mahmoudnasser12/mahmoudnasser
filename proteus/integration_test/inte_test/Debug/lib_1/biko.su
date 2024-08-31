@@ -1,0 +1,3 @@
+biko.c:29:6:biko_step	8	static
+biko.c:38:6:biko_initialize	4	static
+biko.c:44:6:biko_terminate	4	static
